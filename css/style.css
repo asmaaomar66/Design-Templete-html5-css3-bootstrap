@@ -1,0 +1,39 @@
+/*** nabar ***/
+* , *:after, *:before
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial;
+}
+.navbar-default 
+{
+    background: #fff;
+    border: none
+}
+
+.navbar-default .navbar-brand
+{
+    color: #a67ecf;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover
+{
+    color: #a67ecf
+}
+
+.navbar-default .navbar-nav>li>a
+{
+    font-size: 16px;
+    text-transform: uppercase
+}
+
+.navbar-default .navbar-nav>li>a:hover
+{
+    color: #a67ecf
+}
