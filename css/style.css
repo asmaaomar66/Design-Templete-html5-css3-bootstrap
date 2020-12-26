@@ -8,7 +8,6 @@
 body
 {
     font-family: Arial !important;
-    height: 4000px;
 }
 .navbar-default 
 {
@@ -138,4 +137,22 @@ section.choose div.part h2 {
 section.choose div.part p {
     color: #888;
     font-size: 17px;
+}
+/*** footer ***/
+footer {
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 30px;
+}
+footer p {
+    font-size: 15px;
+    color: #aaa;
+}
+footer i {
+    padding: 8px;
+    color: #fff;
+    background: rgb(81, 81, 81);
+    border-radius: 50%;
+    size: 10px;
 }
